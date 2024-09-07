@@ -8,9 +8,9 @@ const Navbar = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   }
   return (
-    <header className="padding-x py-3  z-10 w-full sticky top-0 backdrop-blur-lg  ">
-      <nav className="flex  items-center max-container justify-between">
-        <a href="/" className='text-falu-red font-semibold text-3xl'>Gruha Labs</a>
+    <header className="padding-x py-3 w-full sticky top-0 backdrop-blur-lg z-30 ">
+      <nav className="flex  items-center max-container justify-between  ">
+        <a href="/" className='text-falu-red font-semibold text-3xl '>Gruha</a>
 
         <ul className="flex-1 flex gap-6 xl:gap-12 justify-center  items-center max-lg:hidden">
           {navLinks.map((item) => (
@@ -27,16 +27,16 @@ const Navbar = () => {
         </div>
 
         <div className="lg:hidden flex items-center">
-          <button onClick={toggleNavbar}>
-            {mobileMenuOpen ? <X /> : <Menu />}
+          <button onClick={toggleNavbar} >
+            {mobileMenuOpen ? <X /> : <Menu  />}
           </button>
         </div>
 
         {mobileMenuOpen && (
-          <div className="fixed top-14 right-0 w-full p-6 flex flex-col justify-center items-center border-t-2 bg-flash-white lg:hidden">
-            <ul>
+          <div className="fixed top-14 right-0 w-full p-6 flex flex-col justify-center items-center border-t-2  bg-falu-red lg:hidden ">
+            <ul >
               {navLinks.map((item) => (
-                <li key={item.label} className='font-poppins leading-normal text-lg text-slate-900 py-2'> <a href={item.href}>{item.label}</a> </li>
+                <li key={item.label} className='font-poppins leading-normal text-lg text-flash-white  py-2 '> <a href={item.href}>{item.label}</a> </li>
               ))}
             </ul>
           </div>

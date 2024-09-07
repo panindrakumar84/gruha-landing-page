@@ -47,6 +47,9 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
+  .margin-x{
+    @apply sm:mx-16
+  }
 
   .info-text {
     @apply font-poppins text-slate-600 text-lg leading-7;
