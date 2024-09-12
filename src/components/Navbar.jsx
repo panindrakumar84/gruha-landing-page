@@ -8,8 +8,8 @@ const Navbar = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   }
   return (
-    <header className="padding-x py-3  z-10 w-full sticky top-0 backdrop-blur-lg  ">
-      <nav className="flex  items-center max-container justify-between">
+    <header className="padding-x py-3  z-10 w-full sticky top-0 backdrop-blur-lg ">
+      <nav className="flex  items-center max-container justify-between  ">
         <a href="/" className='text-falu-red font-semibold text-3xl'>Gruha Labs</a>
 
         <ul className="flex-1 flex gap-6 xl:gap-12 justify-center  items-center max-lg:hidden">
