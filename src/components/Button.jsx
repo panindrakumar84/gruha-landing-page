@@ -9,7 +9,7 @@ const Button = ({label,type,iconURL,backgroundColor, textColor, borderColor,full
         "bg-falu-red text-flash-white border-falu-red "
       }
       
-    rounded-full  ${fullWidth && 'w-full'}"`}>
+    rounded-full  ${fullWidth && 'w-full'}`}>
         {label}
         {iconURL && <ArrowRight />        
         }

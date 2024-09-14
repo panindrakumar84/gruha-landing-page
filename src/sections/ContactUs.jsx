@@ -30,7 +30,7 @@ const ContactUs = () => {
 
   return (    
     <section
-      id="contact-us"
+      
       className="max-container flex  max-md:flex-col justify-center items-center gap-10">
       <div className='w-[48%] max-md:w-full flex flex-col shadow-lg rounded-lg gap-7 py-7 px-4 text-base '>
         <h3 className='inline-flex font-medium text-2xl gap-3'>Send us a message <MailOpen className='self-center' /> </h3>
