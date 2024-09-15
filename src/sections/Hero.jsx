@@ -5,9 +5,9 @@ import tech from "../assets/tech.jpg"
 const Hero = () => {
     return (
         <section id='home'
-            className="  w-full flex flex-col justify-evenly items-start  min-h-screen max-container  ">
+            className="  w-full flex flex-col justify-evenly items-center  min-h-screen max-container  ">
 
-            <div className=" relative w-full flex flex-col  justify-center items-center font-poppins mt-28 mb-16 gap-8   ">
+            <div className=" relative w-full flex flex-col  justify-center items-center font-poppins  gap-6   ">
                 <h1 className=' text-6xl text-heading max-sm:text-4xl lg:text-7xl font-medium max-w-4xl'>
                     <span>Home Automation Simplified</span>
                     <span className='text-falu-red'> With Gruha</span>

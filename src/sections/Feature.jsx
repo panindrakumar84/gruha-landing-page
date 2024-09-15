@@ -5,8 +5,9 @@ import FeatureCard from '../components/FeatureCard'
 const Feature = () => {
   return (
     <section 
+    id='features'
     className='flex justify-center'>
-    <div className='flex flex-wrap items-center lg:w-[80%]  justify-center gap-8'>
+    <div className='flex flex-wrap items-center xl:w-[80%]  justify-center gap-8'>
         {
             features.map((item,index)=>(
                 <FeatureCard key={index} 
