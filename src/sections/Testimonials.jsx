@@ -46,7 +46,8 @@ const Testimonials = () => {
  
   return (
 
-    <section className='max-container flex justify-center lg:padding-x'>
+    <section 
+    className='max-container flex justify-center lg:padding-x'>
     <div className='w-full py-4 px-2 md:px-10'>
       
       <Slider {...settings}>
