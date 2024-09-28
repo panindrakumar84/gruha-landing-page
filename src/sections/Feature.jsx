@@ -5,12 +5,15 @@ import { SlidersHorizontal } from 'lucide-react'
 import { control } from '../constants'
 import Button from '../components/Button'
 
+
 const Feature = () => {
   return (
     <section 
     id='features'
+
     className='flex flex-col gap-8 justify-center '>
     <div className='flex flex-wrap items-center xl:w-[90%] self-center  justify-center gap-8 max-sm:padding-x '>
+
         {
             features.map((item,index)=>(
                 <FeatureCard key={index} 
@@ -20,6 +23,7 @@ const Feature = () => {
             ))
         }
     </div>
+
 
     <div className='bg-gradient-to-tr from-red-700 to-red-950 rounded-md px-8 padding-y flex flex-col flex-wrap items-center justify-evenly lg:flex-row gap-8'>
       <div className='bg-white px-6 py-10 shadow-lg  rounded-2xl -rotate-3 '>
@@ -57,6 +61,7 @@ const Feature = () => {
       <p className='text-white opacity-60  '>Note: You'll need compatible smart devices for these features to work.</p>
 
     </div>
+
     </section>
   )
 }

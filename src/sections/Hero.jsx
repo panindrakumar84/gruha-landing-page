@@ -8,6 +8,7 @@ const Hero = () => {
             className="  w-full flex flex-col items-center justify-center   min-h-screen max-container gap-16 ">
 
             <div className=" relative w-full flex flex-col  justify-center items-center font-poppins mt-16  gap-6   ">
+
                 <h1 className=' text-6xl text-heading max-sm:text-4xl lg:text-7xl font-medium max-w-4xl'>
                     <span>Home Automation Simplified</span>
                     <span className='text-falu-red'> With Gruha</span>
@@ -28,6 +29,7 @@ const Hero = () => {
                   lg:max-w-[80%] lg:ml-[5%]'  />
                 <img src={home} alt="smart home automation"  className=' w-full h-auto rounded-md row-start-4 row-end-2 col-start-4 col-end-2 
                 lg:max-w-[80%] justify-self-end lg:mr-[5%]' />
+
             </div>
 
             

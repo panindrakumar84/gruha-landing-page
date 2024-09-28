@@ -23,6 +23,7 @@ const App = () => {
         <Title subTitle="About us" title="Who We Are" />
         <AboutUs/>
 
+
       </section>
 
       <section id="features" className='padding-b scroll-mt-32 '>
@@ -31,6 +32,7 @@ const App = () => {
       </section>
 
      
+
 
       <section
         id="contact-us"
