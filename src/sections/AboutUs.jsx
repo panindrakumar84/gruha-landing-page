@@ -19,12 +19,12 @@ const AboutUs = () => {
         </div>
         <div className=' w-full lg:w-[48%]  flex flex-col items-start justify-center gap-8'>
             <h3 className='text-falu-red text-3xl font-semibold '>About Gruha</h3>
-            <p className='text-paragraph text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed ea maxime quasi necessitatibus ipsam, voluptatibus dolores sunt earum architecto in impedit? Maiores ex ducimus commodi minus consequuntur aut tempore, numquam illum nam? Quae veniam dolores facere, animi iste nesciunt aut reiciendis esse cum natus odio a dignissimos voluptate vero?             
+            <p className='text-paragraph text-justify'>Imagine a home that works for you, not the other way around. That's what true home automation is all about. It's not just about asking Alexa to turn off lights or juggling multiple apps to control different gadgets. It's about making your life easier and more comfortable, without you having to think about it.            
             </p>
-            <p  className='text-paragraph text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo minima totam repellat excepturi maxime voluptatibus dicta quaerat, aspernatur, voluptate ut non quia atque aut rerum illum perspiciatis quas architecto. Ut esse hic quae aliquid ratione repellendus vero. Officia magni vitae voluptates, ipsam doloremque ex? Consequuntur eum ab quos hic.</p>
+            <p  className='text-paragraph text-justify'>That's where Gruha comes in. We're your friendly guide in the world of smart homes. We take care of the complex stuff so you can enjoy a simpler, more comfortable life at home.</p>
             <div className='w-full p-8 shadow-md rounded-md text-black border-l-4 border-falu-red italic relative '>
                 <Quote className='scale-x-[-1] -mt-8'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, consectetur <span className=' font-medium'>- Jana</span></p>
+                <p>"Home automation is not just about convenience; it's about creating a sanctuary of comfort, security, and efficiency, all at your fingertips." <span className=' font-medium'>- Janardhana</span></p>
             </div>
             <Button label="Know more" iconURL={true}/>
         </div>
