@@ -2,13 +2,12 @@ import customer1 from "../assets/user-1.png"
 import customer2 from "../assets/user-2.png"
 import customer3 from "../assets/user-3.png"
 import customer4 from "../assets/user-4.png"
-import { ShieldCheck, Fingerprint, Cctv, Lamp, Router, Fan } from "lucide-react"
+import { ShieldCheck, Fingerprint, MonitorCog, Lamp, Router, UserRoundCog } from "lucide-react"
 
 export const navLinks = [
     {href:"#home",label:"Home"},
     {href:"#about-us",label:"About"},
     {href:"#features",label:"Features"},
-    {href:"#testimonials",label:"Testimonials"},
     {href:"#contact-us",label:"Contact"},
     
 ]
@@ -42,34 +41,33 @@ export const reviews = [
 
 export const features = [
     {
-        icon: Cctv,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
+        icon: MonitorCog,
+        title: "One App for Everything",
+        feature: "Say goodbye to app clutter! With our system, you'll only need one app to control all your smart home devices."
     },
     {
         icon: ShieldCheck,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
+        title: "Your Home, Your Privacy",
+        feature: "Your smart home should be smart enough to work without constantly connecting to the internet. We keep your data safe and your devices working, even if the internet is down."
     },
     {
-        icon: Fan,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
+        icon: UserRoundCog,
+        title: "Your Home, Your Rules",
+        feature: "Want your lawn watered only when it's really needed? Or lights that turn on just as you walk in? We make it easy to set up your home to work exactly how you want it with flexible automation rules."
     },
     {
         icon: Router,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
+        title: "Talk to Your Home",
+        feature: "(Coming Soon) Soon, you'll be able to control your home with your voice, using words that feel natural to you."
     },
-    {
-        icon: Fingerprint,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
-    },
-    {
-        icon: Lamp,
-        title: "Lorem ipsum dolor sit.",
-        feature: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ducimus."
-    },
+    
 ]
 
+export const control = [
+    "Door locks for better security",
+    "Sensors to know when doors open",
+    "Lights and switches",
+    "Window blinds",
+    "Air conditioning and heating",
+   "And much more!",
+]
