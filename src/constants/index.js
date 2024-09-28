@@ -2,6 +2,7 @@ import customer1 from "../assets/user-1.png"
 import customer2 from "../assets/user-2.png"
 import customer3 from "../assets/user-3.png"
 import customer4 from "../assets/user-4.png"
+
 import { ShieldCheck, Fingerprint, MonitorCog, Lamp, Router, UserRoundCog } from "lucide-react"
 
 export const navLinks = [
@@ -41,6 +42,7 @@ export const reviews = [
 
 export const features = [
     {
+
         icon: MonitorCog,
         title: "One App for Everything",
         feature: "Say goodbye to app clutter! With our system, you'll only need one app to control all your smart home devices."
@@ -70,4 +72,5 @@ export const control = [
     "Window blinds",
     "Air conditioning and heating",
    "And much more!",
+
 ]
