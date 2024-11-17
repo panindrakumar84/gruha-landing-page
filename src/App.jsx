@@ -3,8 +3,6 @@ import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import ContactUs from './sections/ContactUs'
 import Title from './components/Title'
-import Testimonials from './sections/Testimonials'
-import FeatureCard from './components/FeatureCard'
 import Feature from './sections/Feature'
 import AboutUs from './sections/AboutUs'
 
